@@ -40,3 +40,16 @@ ul, li {
     font-size: 18px;
     list-style-type: none;
 }
+
+.header, .main-content {
+    grid-column-start: 2;
+}
+
+.main-content {
+    background-color: #bccbde;
+}
+
+.person img {
+    height: 25px;
+    width: 25px;
+}
