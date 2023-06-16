@@ -11,7 +11,7 @@
 
 .container div {
     padding: 15px;
-    font-size: 32px;
+   /* font-size: 32px; */
     font-family: "Roboto";
     font-weight: bold;
     color: black;
@@ -47,16 +47,45 @@ ul, li {
 
 .main-content {
     background-color: #bccbde;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
 }
 
-.trending {
+.card {
+    background-color: white;
+    border-left: 3px solid goldenrod;
+}
+
+.card p {
+    font-size: 10px;
+}
+
+.card-icons img {
+    height: 20px;
+    width: 20px;
+}
+
+.announcements, .trending {
     width: 180px;
     height: 200px;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
     gap: 15px;
     background-color: white;
+}
+
+.announcements {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.announcements div p {
+    font-size: 10px;
+}
+
+.trending {
+    
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 .trending img {
