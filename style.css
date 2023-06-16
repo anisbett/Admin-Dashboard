@@ -68,6 +68,14 @@ ul, li {
 .top {
     grid-template-columns: 1fr 1fr;
 }
+.left-side {
+
+}
+.right-side {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns:50px 50px 100px;
+}
 
 .main-content {
     background-color: #bccbde;
