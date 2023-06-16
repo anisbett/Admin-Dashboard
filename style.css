@@ -14,5 +14,14 @@
     font-size: 32px;
     font-family: "Roboto";
     font-weight: bold;
-    color: white;
+    color: black;
+}
+
+.title img {
+    height: 40px;
+    width: 40px;
+}
+.menu ul li img, .other ul li img  {
+    height: 20px;
+    width: 20px;
 }
