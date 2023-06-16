@@ -50,17 +50,20 @@ ul, li {
 }
 
 .trending {
-    width: 150px;
+    width: 180px;
+    height: 200px;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    background-color: white;
 }
 
 .trending img {
     grid-column-end: 1;
     height: 25px;
     width: 25px;
-    gap: 15px;
+    
 }
 
 .trending p {
