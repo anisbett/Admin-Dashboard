@@ -19,6 +19,7 @@
 
 .sidebar {
     background-color: #4287f5;
+    grid-row-end: span 2;
 }
 
 
@@ -26,12 +27,12 @@
     font-size: 20px;
 }
 
-.title ul li img {
+.title ul li img, .bottom img {
     height: 40px;
     width: 40px;
 }
 
-.menu ul li img, .other ul li img  {
+.menu ul li img, .other ul li img, .top div img {
     height: 20px;
     width: 20px;
 }
@@ -43,6 +44,29 @@ ul, li {
 
 .header, .main-content {
     grid-column-start: 2;
+}
+
+.header, .top, .bottom {
+    display: grid;
+}
+.header {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+}
+
+.search-bar {
+    border-radius: 5px;
+    width: 300px;
+    height: 20px;
+    background-color: #bccbde;
+}
+
+.top, .bottom {
+    grid-template-rows: 1fr;
+}
+
+.top {
+    grid-template-columns: 1fr 1fr;
 }
 
 .main-content {
@@ -71,6 +95,7 @@ ul, li {
     display: grid;
     gap: 15px;
     background-color: white;
+    grid-column-start: 2;
 }
 
 .announcements {
