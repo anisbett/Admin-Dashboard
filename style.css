@@ -17,11 +17,16 @@
     color: black;
 }
 
-.title p {
+.sidebar {
+    background-color: #4287f5;
+}
+
+
+.title ul li {
     font-size: 20px;
 }
 
-.title img {
+.title ul li img {
     height: 40px;
     width: 40px;
 }
@@ -32,6 +37,6 @@
 }
 
 ul, li {
-    font-size: 16px;
+    font-size: 18px;
     list-style-type: none;
 }
