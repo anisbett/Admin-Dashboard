@@ -27,7 +27,7 @@
     font-size: 20px;
 }
 
-.title ul li img, .bottom img {
+.title ul li img, .bottom div img {
     height: 40px;
     width: 40px;
 }
@@ -63,11 +63,9 @@ ul, li {
 
 .top, .bottom {
     grid-template-rows: 1fr;
-}
-
-.top {
     grid-template-columns: 1fr 1fr;
 }
+
 .left-side {
 
 }
@@ -75,6 +73,24 @@ ul, li {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns:50px 50px 100px;
+}
+
+.b-ls {
+   display: grid;
+   grid-template-columns: 50px 250px; 
+}
+
+.b-rs {
+    display: grid;
+    grid-template-columns: 100px 50px 50px;
+}
+
+.greeting-container p {
+    font-size: 10px;
+}
+
+.greeting-container h3 {
+    font-size: 16px;
 }
 
 .main-content {
