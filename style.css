@@ -56,7 +56,7 @@ ul, li {
 
 .search-bar {
     border-radius: 5px;
-    width: 300px;
+    width: 450px;
     height: 20px;
     background-color: #bccbde;
 }
@@ -83,6 +83,7 @@ ul, li {
 .b-rs {
     display: grid;
     grid-template-columns: 100px 50px 50px;
+    gap: 30px;
 }
 
 .greeting-container p {
