@@ -50,7 +50,7 @@ ul, li {
     display: grid;
 }
 .header {
-    grid-template-rows: 50px 50px;
+    grid-template-rows: 50px 75px;
     grid-template-columns: 1fr;
 }
 
