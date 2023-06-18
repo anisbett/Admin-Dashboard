@@ -143,11 +143,15 @@ button {
     text-align: right;
 }
 
+.main-rs {
+    display: grid;
+    grid-template-rows: 15px 1fr 15px 1fr ;
+}
+
 .announcements, .trending {
     width: 180px;
     height: 200px;
     display: grid;
-    gap: 15px;
     background-color: white;
     grid-column-start: 2;
 }
@@ -166,13 +170,14 @@ button {
 }
 
 .announcements div p {
-    font-size: 10px;
+    font-size: 8px;
 }
 
 .trending {
     
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
+    gap: 15px;
 }
 
 .trending img {
