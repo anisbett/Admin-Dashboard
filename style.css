@@ -141,6 +141,13 @@ button {
     grid-column-start: 2;
 }
 
+.announce, .trend {
+    grid-column-start: 2;
+}
+.announce {
+    grid-row-end: 1;
+    }
+
 .announcements {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
