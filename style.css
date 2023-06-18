@@ -151,8 +151,8 @@ button {
 .announcements, .trending {
     width: 180px;
     height: 200px;
-    display: grid;
     background-color: white;
+    display: grid;
     grid-column-start: 2;
 }
 
@@ -178,6 +178,7 @@ button {
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
+    margin-top: 15px;
 }
 
 .trending img {
