@@ -121,6 +121,7 @@ button {
 .card {
     background-color: white;
     border-left: 3px solid goldenrod;
+    
 }
 
 .summary {
@@ -161,6 +162,7 @@ button {
 .announcements {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    margin-top: 15px;
 }
 
 .announcements div p {
