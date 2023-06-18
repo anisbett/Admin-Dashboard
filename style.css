@@ -123,8 +123,14 @@ button {
     border-left: 3px solid goldenrod;
 }
 
-.card p {
+.summary {
     font-size: 10px;
+    color: gray;
+}
+
+.title {
+    font-size: 12px;
+    color: black;
 }
 
 .card-icons img {
