@@ -132,6 +132,10 @@ button {
     width: 20px;
 }
 
+.card-icons {
+    text-align: right;
+}
+
 .announcements, .trending {
     width: 180px;
     height: 200px;
